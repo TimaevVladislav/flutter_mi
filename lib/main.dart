@@ -15,6 +15,7 @@ class Application extends StatelessWidget {
             height: 100.0,
             width: 100.0,
             margin: EdgeInsets.symmetric(vertical: 250.0, horizontal: 25.0),
+            padding: EdgeInsets.all(20.0),
             color: Colors.white,
             child: Text("Application"),
           ),
