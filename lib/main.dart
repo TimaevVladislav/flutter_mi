@@ -26,8 +26,9 @@ class Application extends StatelessWidget {
                   Container(height: 100.0, width: 100.0, color: Colors.red)
                 ],
               ),
-              Row(
+              Column(
                 children: [
+                  SizedBox(height: 320.0),
                   Container(height: 100.0, width: 100.0, color: Colors.yellow),
                   Container(height: 100.0, width: 100.0, color: Colors.green)
                 ],
