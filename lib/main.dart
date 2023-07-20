@@ -11,40 +11,14 @@ class Application extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          child: Column(
             children: <Widget>[
-              Column(
-                children: <Widget>[
-                  Container(height: 100.0, width: 100.0, color: Colors.red),
-                  Container(height: 100.0, width: 100.0, color: Colors.red),
-                  Container(height: 100.0, width: 100.0, color: Colors.red),
-                  Container(height: 100.0, width: 100.0, color: Colors.red),
-                  Container(height: 100.0, width: 100.0, color: Colors.red),
-                  Container(height: 100.0, width: 100.0, color: Colors.red),
-                  Container(height: 100.0, width: 100.0, color: Colors.red),
-                  Container(height: 100.0, width: 100.0, color: Colors.red)
-                ],
+              CircleAvatar(
+                radius: 50.0,
+                backgroundColor: Colors.red,
+                backgroundImage: AssetImage("assets/images/cat.jpg"),
               ),
-              Column(
-                children: [
-                  SizedBox(height: 320.0),
-                  Container(height: 100.0, width: 100.0, color: Colors.yellow),
-                  Container(height: 100.0, width: 100.0, color: Colors.green)
-                ],
-              ),
-              Column(
-                children: <Widget>[
-                  Container(height: 100.0, width: 100.0, color: Colors.blue),
-                  Container(height: 100.0, width: 100.0, color: Colors.blue),
-                  Container(height: 100.0, width: 100.0, color: Colors.blue),
-                  Container(height: 100.0, width: 100.0, color: Colors.blue),
-                  Container(height: 100.0, width: 100.0, color: Colors.blue),
-                  Container(height: 100.0, width: 100.0, color: Colors.blue),
-                  Container(height: 100.0, width: 100.0, color: Colors.blue),
-                  Container(height: 100.0, width: 100.0, color: Colors.blue)
-                ],
-              ),
+              Text("Cat")
             ],
           ),
         ),
