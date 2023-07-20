@@ -21,7 +21,7 @@ class Application extends StatelessWidget {
               Text(
                 "Cat",
                 style: TextStyle(
-                    fontFamily: "Pacifico",
+                    fontFamily: 'Pacifico',
                     color: Colors.white,
                     fontSize: 40.0,
                     fontWeight: FontWeight.bold),
