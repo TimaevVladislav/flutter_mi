@@ -18,7 +18,14 @@ class Application extends StatelessWidget {
                 backgroundColor: Colors.red,
                 backgroundImage: AssetImage("assets/images/cat.jpg"),
               ),
-              Text("Cat")
+              Text(
+                "Cat",
+                style: TextStyle(
+                    fontFamily: "Pacifico",
+                    color: Colors.white,
+                    fontSize: 40.0,
+                    fontWeight: FontWeight.bold),
+              )
             ],
           ),
         ),
