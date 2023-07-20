@@ -29,9 +29,10 @@ class Application extends StatelessWidget {
               Text("Flutter developer",
                   style: TextStyle(
                       fontFamily: 'Italic',
-                      color: Colors.white,
-                      fontSize: 40.0,
-                      fontWeight: FontWeight.bold))
+                      color: Colors.teal.shade100,
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20.0,
+                      letterSpacing: 2.5))
             ],
           ),
         ),
